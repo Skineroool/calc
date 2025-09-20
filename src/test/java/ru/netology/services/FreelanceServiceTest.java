@@ -24,8 +24,7 @@ class FreelanceServiceTest {
         int expenses = 60_000;
         int threshold = 150_000;
         int expected = 2;
-
-        int actual = service.calculate(income, expenses, threshold);
+        int actual = service.calculate(income,expenses,threshold);
         Assertions.assertEquals(expected, actual);
     }
 }
